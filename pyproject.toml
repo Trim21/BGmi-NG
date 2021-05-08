@@ -62,13 +62,13 @@ docs = [
 
 [tool.poetry.dev-dependencies]
 # tests
-pytest = "6.2.3"
+pytest = "==6.2.4"
 pytest-rerunfailures = "9.1.1"
-pytest-mock = "3.5.1"
+pytest-mock = "==3.6.1"
 requests = "2.25.1"
-requests-cache = "0.6.2"
+requests-cache = "==0.6.3"
 # lint
-flake8 = "3.9.1"
+flake8 = "==3.9.2"
 flake8-2020 = "1.6.0"
 flake8-bugbear = "21.4.3"
 flake8-comprehensions = "3.4.0"
